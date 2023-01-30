@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #888;
+  padding: 15px;
+}
+
+article {
+  margin-top: 50px;
+
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+  line-height: normal;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+.main-nav {
+  display: flex;
+  padding: 1em;
+
+}
+
+
+.main-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 3;
+}
+
+.barras img {
+  margin-right: 10px;
+}
+
+.main-nav li {
+  margin-right: 1.5em;
+}
+
+
+.main-nav > div {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.nav2 {
+  display: flex;
+  justify-content:space-around;
+}
+
+.nav2 > input {
+  
+  border-radius: 10px;
+  border-color: rgb(219,219,219);
+  border-style: solid;
+  width: 86vw;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.magdesign {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  
+}
+
+.magdesign h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #222;
+}
+
+.trending {
+
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+
+.trending h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: #222;
+}
+
+.image1 {
+
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.image1 img {
+
+  width: 100vw;
+  height: 40vh;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+}
+
+
+hr {
+  margin-top: 15px;
+  
+}
+
+
+.pieFoto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#texto1 {
+
+  font-family: 'Poppins', sans-serif;
+  margin-left: 15px;
+  color: #222;
+
+}
+
+#texto2 {
+
+  font-family: 'Poppins', sans-serif;
+  color: #888;
+  font-size: 14px;
+  margin-left: 5px;
+  
+}
+
+
+.seccion {
+
+  margin: 10px;
+
+}
+
+.author {
+  display: flex;
+  
+}
+
+.author picture img {
+  border-radius: 50px;
+  width: 47px;
+  height: 50px;
+  margin: 10px;
+  align-self: center;
+  
+  
+}
+
+.author section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10px;
+
+}
+
+.nombre {
+
+  color: #222;
+}
+
+
+.newsletter {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  height: 180px;
+}
+
+
+.newsletter h4 {
+
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  width: 90vw;
+
+}
+
+.newsletter input {
+
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  border-radius: 10px;
+  border-color: rgb(219,219,219);
+  border-style: solid;
+  width: 90vw;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+.newsletter button {
+
+  font-family: 'Poppins', sans-serif;
+  background-color: orange;
+  color: white;
+  border-color: rgb(219,219,219);
+  width: 95vw;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 25px;
+
+}
+
+
+.socials{
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.socials a {
+  display: flex;
+  background-color: rgb(219,219,219);
+  border-radius: 15px;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.socials a i {
+  color: #222;
+
+}
+
+
+footer {
+  margin: 30px;
+}
+
+
+.articulo-destacado div h1 {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  color: #222;
+
+}
+
+.tituloh1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+  body {
+    
+    margin: 0;
+    
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between
+    
+  }
+
+  .nav2 input {
+    
+    width: 250px;
+  }
+
+  .divnav2{
+    order: 0;
+    margin: 15px;
+  }
+  .magdesign  {
+    order: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    padding-left: 50px;
+  }
+
+  .magdesign h1{
+
+    padding-right: 105px;
+  }
+  .main-nav {
+    order: 2;
+    padding-left: 100px;
+    width: 200px;
+    margin-right: 100px;
+  }
+
+  .divnav2{
+    margin-left: 250px;
+  }
+  hr {
+    width: 100vw;
+    color:rgb(219,219,219);
+  }
+
+  .articulo-destacado {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+
+  .image1 {
+    width: 20vw;
+    margin-left: 100px;
+  }
+
+  .image1 img {
+    width: 450px;
+    height: 50vh;
+  }
+  .autorPost {
+    justify-content: space-around;
+    width: 40vw;
+    align-items: flex-end;
+    margin-left: 80px;
+    margin-top: 35px;
+  }
+  .seccion-destacado {
+    margin-left: 200px;
+  }
+
+  .trending {
+    width: 100vw;
+    margin-top: 40px;
+  }
+
+  .articulo1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    
+  }
+
+  .articulo2{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  .articulo3{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  .articulo-destacado2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25vw;
+    
+  }
+
+  .articulo-destacado3 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 70px;
+    
+    
+  }
+
+  .image2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  .fila {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .tituloh1 h1 {
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color: #222;
+   
+    
+  }
+
+  .tituloh1{
+    margin-left: 350px;
+  }
+  .image3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(247, 244, 244);
+    width: 100%;
+  }
+
+  .newsletter h4{
+
+    align-self:flex-start;
+    margin-left: 480px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #222;
+
+  }
+
+  .zonaSuscribir{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .zonaSuscribir input {
+
+    width: 35%;
+    margin-right: 15px;
+  }
+
+  .zonaSuscribir button {
+
+    width: 20%;
+  }
+}
